@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
-/**main - hash
+/**
+ * main - Entry point
  *
  *
- * always return 0
+ * Always return 0
  */
 
 int main(void)

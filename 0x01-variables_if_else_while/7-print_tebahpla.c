@@ -3,7 +3,7 @@
 
 
 /**
- * main - return alphabelts
+ * main - reverse alphabets
  * Return: return 0 (Successful)
  */
 

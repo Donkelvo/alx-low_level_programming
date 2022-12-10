@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - returns an alphabelt in a reverse order
- * Return: return 0 (Successful)
+ * Return: return 0 if successful
  */
 int main(void)
 {

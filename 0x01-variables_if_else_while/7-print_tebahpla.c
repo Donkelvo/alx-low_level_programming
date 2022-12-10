@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - reverse alphabets
+ * main - returns an alphabelt in a reverse order
  * Return: return 0 (Successful)
  */
 int main(void)

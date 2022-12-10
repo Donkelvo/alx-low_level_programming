@@ -1,20 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 /**
- * main - prints the last digit of random
- * number stored in the variable n
- * Return: Always 0 (Success)
+ * main - returns alphabelts
+ * Return: returns 0 (successful)
  */
 
 int main(void)
 {
-	char low;
+	int ch = 'a';
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		putchar('\n');
-
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+	putchar('\n');
 	return (0);
 }

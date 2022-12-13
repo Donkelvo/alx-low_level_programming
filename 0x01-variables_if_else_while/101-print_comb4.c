@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - prints all possible different combinations of three digits 
  * Return: Always return 0 if successful
  */
-
 int main(void)
 {
 	int d, p, q;
@@ -24,7 +22,6 @@ int main(void)
 
 					if (d == '7' && p == '8')
 						continue;
-
 					putchar(',');
 					putchar(' ');
 				}
@@ -32,6 +29,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-
 	return (0);
 }

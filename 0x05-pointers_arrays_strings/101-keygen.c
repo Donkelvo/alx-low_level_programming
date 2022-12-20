@@ -6,7 +6,7 @@
 int main()
 {
     int counter = 0;
-    srandom(time(NULL));  // Correct seeding function for random()
+    srandom(time(NULL));
     char randChar;
 
     int  passwordLength;
@@ -20,6 +20,6 @@ int main()
         printf("%c", randChar);
         counter++;
     }
-    printf("\n"); // Stops the output from being on the same line as the prompt
+    printf("\n");
     return 0;
 }
